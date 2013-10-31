@@ -1,0 +1,26 @@
+<form action='/contact' method='POST'>
+  <p>
+    Name: <input type = "text" name = "contact[name]" id = "name" />
+  </p>
+
+  <p>
+    Email: <input type = "text" name = "contact[email]" id = "email" />
+  </p>
+
+  <p>
+    Subject: <input type = "text" name = "contact[subject]" id = "subject" /> 
+  </p>
+
+  <p>
+    Comment: <textarea name = "contact[comment]" id = "comment"cols = "20" rows = "5"> </textarea> 
+  </p>
+  
+  <p>
+    Add a picture: <input type = "file" name = "contact[picture]" />
+    <input type = "submit" value = "Upload" />
+  </p>
+
+  <p>
+      <input type='submit' name="submit" id = "submit_button" class="button" value="Submit"/>
+  </p>
+</form>
